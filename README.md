@@ -1,5 +1,8 @@
 # M1GDV_M2
 
+# Inhoud
+
+
 - [1.1 GameConcept](#gameconcept)
 - [1.2 Randomitems](#random-items)
 
