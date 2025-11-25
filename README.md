@@ -10,7 +10,7 @@
 ---
 
 # Link naar lessen
-https://github.com/djsjollema/lessen-gamedevelopment/tree/erwin/M2
+https://github.com/djsjollema/lessen-gamedevelopment/tree/main/M2/GDV
 
 # 1.1 GameConcept
 ## Titel game: PinDrop
