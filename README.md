@@ -5,6 +5,7 @@
 - [Link naar lessen](#link-naar-lessen)
 - [1.1 GameConcept](#11-gameconcept)
 - [1.2 Randomitems](#12-random-items)
+- [2.1 BallForce](#21-ball-collision-en-force)
 - [2.2 Canon](#22-peggle-mikken-line-renderer)
 
 ---
@@ -33,7 +34,15 @@ Script: [Randomitems.cs](Assets/Scripts/randomitems.cs)
 
 ---
 
+# 2.1 Ball collision en force
+![Ball](images/ball-force-collisions.gif "Ball")
 
+Beschrijving: Een omgeving gemaakt voor de bal om te bouncen en te detecteren of de target gehit word
+
+Scripts [ShootBall.cs](Assets/Scripts/ShootBall.cs) [TargetDetection/Collision.cs](Assets/Scripts/TargetDetection.cs)
+
+
+---
 
 # 2.2 Peggle Mikken Line Renderer
 ![canon](images/canon.gif "canon")
@@ -43,3 +52,4 @@ Beschrijving: Canon gemaakt met prefabs, colliders, images
 Scripts: [Shoot.cs](Assets/Scripts/Shoot.cs) [Aim.cs](Assets/Scripts/Aim.cs)
 
 ---
+
