@@ -7,6 +7,8 @@
 - [1.2 Randomitems](#12-random-items)
 - [2.1 BallForce](#21-ball-collision-en-force)
 - [2.2 Canon](#22-peggle-mikken-line-renderer)
+- [3.1 Scoremanager](#31-score--triggers)
+- [3.2 Combo](#32-peggle-game-combos-multiplier-events)
 
 ---
 
@@ -53,3 +55,21 @@ Scripts: [Shoot.cs](Assets/Scripts/Shoot.cs) [Aim.cs](Assets/Scripts/Aim.cs)
 
 ---
 
+# 3.1 Score & Triggers
+![Scoremanager](images/Scoremanager.png "scoremanager")
+
+Beschrijving: Score Manager gemaakt voor les 3.2
+
+Script: [ScoreManager.cs](Assets/Scripts/ScoreManager.cs)
+
+
+---
+
+# 3.2 Peggle Game, Combos, Multiplier, Events
+![bumper](images/Peggle-Game-Combos-Multiplier-Events.gif "combo")
+
+Beschrijving: Combo system gemaakt met bumper hit
+
+Scripts [ComboSystem.cs](Assets/Scripts/ComboSystem.cs) [BumperHit.cs](Assets/Scripts/BumperHit.cs)
+
+---

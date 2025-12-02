@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3427712644319264357}
   m_Layer: 0
   m_Name: pin
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
