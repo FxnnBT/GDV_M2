@@ -2,6 +2,9 @@ using System.Collections.Generic;
 using UnityEngine;
 public class ComboSystem : MonoBehaviour
 {
+    public delegate void OnScoreChangeDelegate(int score, int multiplier);
+    public static event OnScoreChangeDelegate OnScoreChange;
+
     private List<string> bumperTags = new List<string>();   //lijst met geraakte tags
     private int scoreMultiplier = 1;
     private void Start()
@@ -29,7 +32,9 @@ public class ComboSystem : MonoBehaviour
         }                                                   //voeg score toe aan de ScoreManager
         ScoreManager.Instance.AddScore(bumperValue * scoreMultiplier);
 
+        OnScoreChange?.Invoke(ScoreManager.Instance.score, scoreMultiplier);
+
                                                             //print score en multiplier in de console
-        Debug.Log($"Score: {ScoreManager.Instance.score} || Multiplier: {scoreMultiplier}X");
+        //Debug.Log($"Score: {ScoreManager.Instance.score} || Multiplier: {scoreMultiplier}X");
     }
 }

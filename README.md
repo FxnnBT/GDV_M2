@@ -9,6 +9,8 @@
 - [2.2 Canon](#22-peggle-mikken-line-renderer)
 - [3.1 Scoremanager](#31-score--triggers)
 - [3.2 Combo](#32-peggle-game-combos-multiplier-events)
+- [4.1 UI](#41-ui)
+- [4.2 Score versturen](#42-score-versturen)
 
 ---
 
@@ -73,3 +75,20 @@ Beschrijving: Combo system gemaakt met bumper hit
 Scripts [ComboSystem.cs](Assets/Scripts/ComboSystem.cs) [BumperHit.cs](Assets/Scripts/BumperHit.cs)
 
 ---
+
+# 4.1 UI 
+![tekst](images/Score.png "score")
+
+Beschrijving: UI en anchor gebruikt om de text/score te kunnen zien in de game
+
+---
+
+# 4.2 Score versturen
+![score](images/score.gif "score versturen")
+
+Beschrijving: Script voor een ball count en score in tekst sturen via een ander script. Shoot script moest aangepast worden vanwege andere scripts
+
+Scripts [UIScoreBoard.cs](Assets/Scripts/UIScoreBoard.cs) [CountBalls.cs](Assets/Scripts/CountBalls.cs) [Shoot.cs](Assets/Scripts/Shoot.cs)
+
+---
+
