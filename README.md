@@ -1,4 +1,4 @@
-# M1GDV_M2
+# GDV_M2
 ---
 # Inhoud
 
@@ -11,6 +11,7 @@
 - [3.2 Combo](#32-peggle-game-combos-multiplier-events)
 - [4.1 UI](#41-ui)
 - [4.2 Score versturen](#42-score-versturen)
+- [5.2 Particles, Sound en Shakes](#52-particles-sound-en-shakes)
 
 ---
 
@@ -91,4 +92,11 @@ Beschrijving: Script voor een ball count en score in tekst sturen via een ander 
 Scripts [UIScoreBoard.cs](Assets/Scripts/UIScoreBoard.cs) [CountBalls.cs](Assets/Scripts/CountBalls.cs) [Shoot.cs](Assets/Scripts/Shoot.cs)
 
 ---
+
+# 5.2 Particles, Sound en shakes
+![particles](images/particles.gif)
+
+Beschrijving: Met particles gewerkt om op collision een particle af te laten gaan. een sound toegevoegd om per bumper hit af te spelen.
+
+Scripts: [SoundManager.cs](Assets/Scripts/SoundManager.cs)[Bumperhit.cs](Assets/Scripts/BumperHit.cs)
 

@@ -17,6 +17,7 @@ public class ComboSystem : MonoBehaviour
     }
     private void CheckForCombo(string tag, int bumperValue)
     {
+        Debug.Log("Bumper hit: " + tag);
         bumperTags.Add(tag);                                //tag toevoegen aan lijst
         if (bumperTags.Count > 1)                           //check of er meer dan 1 tag is
         {                                                   //check of de laatste 2 tags gelijk zijn
