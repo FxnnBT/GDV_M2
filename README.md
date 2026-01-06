@@ -14,6 +14,8 @@
 - [4.1 UI](#41-ui)
 - [4.2 Score versturen](#42-score-versturen)
 - [5.2 Particles, Sound en Shakes](#52-particles-sound-en-shakes)
+- [6.1 Afronding en uitbreiding](#61-afronding-en-uitbreiding)
+- [Peggle check](#peggle-check)
 
 ---
 
@@ -112,3 +114,18 @@ Scripts [UIScoreBoard.cs](Assets/Scripts/UIScoreBoard.cs) [CountBalls.cs](Assets
 Beschrijving: Met particles gewerkt om op collision een particle af te laten gaan. een sound toegevoegd om per bumper hit af te spelen.
 
 Scripts: [SoundManager.cs](Assets/Scripts/SoundManager.cs) [Bumperhit.cs](Assets/Scripts/BumperHit.cs)
+
+---
+# 6.1 Afronding en uitbreiding
+
+![release](images/release.png)
+
+Beschrijving: Release toegevoegd voor de check
+
+Scripts: N/A
+
+---
+
+# Peggle Check
+
+Hier is de peggle check [Check.md](check.md)
