@@ -10602,7 +10602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2643fd10122ce3345ab2b66f15bb4aef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CountBalls
-  ballsLeft: 8
+  ballsLeft: 3
 --- !u!61 &542887297
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@
 - [5.2 Particles, Sound en Shakes](#52-particles-sound-en-shakes)
 - [6.1 Afronding en uitbreiding](#61-afronding-en-uitbreiding)
 - [Peggle check](#peggle-check)
+- [Planning](#planning)
 
 ---
 
@@ -129,3 +130,12 @@ Scripts: N/A
 # Peggle Check
 
 Hier is de peggle check [Check.md](check.md)
+
+---
+
+# Planning
+
+- Pinnen laten destroyen
+- Opmaak (mooier maken)
+- De aantal ballen displayen
+- Mogelijk level toevoegen
