@@ -13,7 +13,7 @@
 ## Peggles
 - [x] Peggles hebben collision
 - [x] Peggles reageren wanneer ze geraakt worden
-- [ ] Peggles verdwijnen of veranderen na een hit
+- [x] Peggles verdwijnen of veranderen na een hit
 
 ## Score
 - [x] Score wordt verhoogd bij een hit

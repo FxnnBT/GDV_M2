@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2992315353778729658}
   - component: {fileID: 4707883424921099338}
   - component: {fileID: 7010643700873514349}
+  - component: {fileID: 5859093501060243223}
   m_Layer: 0
   m_Name: pin
   m_TagString: Ball
@@ -107,6 +108,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.49, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &5859093501060243223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5440623549026436420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20002ffc7602c3547815764d165add39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallDestroy
+  destroyDelay: 3
+  destroyParticles: {fileID: 6355008566281865294, guid: e1f4968b6aed6674cb3770ce416cc21b, type: 3}
 --- !u!1 &7859069790569927869
 GameObject:
   m_ObjectHideFlags: 0
